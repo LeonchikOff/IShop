@@ -30,7 +30,8 @@
 .list-group {
   margin: 0;
 }
-.product .name, .product .list-group-item {
+.product .name,
+.product .list-group-item {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

@@ -24,7 +24,7 @@
         <a class="navbar-brand" href="products.html">IShop</a>
       </div>
       <div class="collapse navbar-collapse" id="ishopNav">
-        <ul class="nav navbar-nav navbar-right">
+        <ul id="currentShoppingCart" class="nav navbar-nav navbar-right hidden">
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
               <i class="fa fa-shopping-cart" aria-hidden="true"></i> Shopping cart (<span class="total-count">0</span>)<span class="caret">
@@ -130,7 +130,7 @@
                 <h4 class="name">HUAWEI P50 Pocket 8/256 ГБ</h4>
                 <div class="code">Code: 27121</div>
                 <div class="price">63459₽</div>
-                <a class="btn btn-primary pull-right" data-id-product="">Buy</a>
+                <a class="btn btn-primary pull-right buy-btn" data-id-product="1234">Buy</a>
                 <ul class="list-group">
                   <li class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span> </li>
                   <li class="list-group-item"> <small>Producer:</small> <span class="produser">HUAWEI</span> </li>
@@ -139,7 +139,7 @@
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xlg-2">
-            <div class="panel panel-default product" id="product1234">
+            <div class="panel panel-default product" id="product1235">
               <div class="panel-body">
                 <div class="thumbnail"> <img src="media/realme9.jpg" alt="Product name">
                   <div class="desc">
@@ -151,7 +151,7 @@
                 <h4 class="name">Realme 9 5G Snapdragon 695 4/128 ГБ</h4>
                 <div class="code">Code: 24010</div>
                 <div class="price">13990₽</div>
-                <a class="btn btn-primary pull-right" data-id-product="1234">Buy</a>
+                <a class="btn btn-primary pull-right buy-btn" data-id-product="1235">Buy</a>
                 <ul class="list-group">
                   <li class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span> </li>
                   <li class="list-group-item"> <small>Producer:</small> <span class="produser">Realme</span> </li>
@@ -160,7 +160,7 @@
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xlg-2">
-            <div class="panel panel-default product" id="product1234">
+            <div class="panel panel-default product" id="product1236">
               <div class="panel-body">
                 <div class="thumbnail"> <img src="media/realmeNano.jpg" alt="Product name">
                   <div class="desc">
@@ -173,7 +173,7 @@
                 <h4 class="name">Realme Narzo 50 4/128 ГБ</h4>
                 <div class="code">Code: 23145</div>
                 <div class="price">20990₽</div>
-                <a class="btn btn-primary pull-right" data-id-product="1234">Buy</a>
+                <a class="btn btn-primary pull-right buy-btn" data-id-product="1236">Buy</a>
                 <ul class="list-group">
                   <li class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span> </li>
                   <li class="list-group-item"> <small>Producer:</small> <span class="produser">Realme</span> </li>
@@ -182,7 +182,7 @@
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xlg-2">
-            <div class="panel panel-default product" id="product1234">
+            <div class="panel panel-default product" id="product1237">
               <div class="panel-body">
                 <div class="thumbnail"> <img src="https://via.placeholder.com/400x400" alt="Product name">
                   <div class="desc">
@@ -193,8 +193,8 @@
                 </div>
                 <h4 class="name">Product name</h4>
                 <div class="code">Code: 27000</div>
-                <div class="price">$400.50</div>
-                <a class="btn btn-primary pull-right" data-id-product="1234">Buy</a>
+                <div class="price">20990₽</div>
+                <a class="btn btn-primary pull-right buy-btn" data-id-product="1237">Buy</a>
                 <ul class="list-group">
                   <li class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span> </li>
                   <li class="list-group-item"> <small>Producer:</small> <span class="produser">Apple</span> </li>
@@ -203,7 +203,7 @@
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xlg-2">
-            <div class="panel panel-default product" id="product1234">
+            <div class="panel panel-default product" id="product1238">
               <div class="panel-body">
                 <div class="thumbnail"> <img src="https://via.placeholder.com/400x400" alt="Product name">
                   <div class="desc">
@@ -214,8 +214,8 @@
                 </div>
                 <h4 class="name">Product name</h4>
                 <div class="code">Code: 27000</div>
-                <div class="price">$400.50</div>
-                <a class="btn btn-primary pull-right" data-id-product="1234">Buy</a>
+                <div class="price">20990₽</div>
+                <a class="btn btn-primary pull-right buy-btn" data-id-product="1238">Buy</a>
                 <ul class="list-group">
                   <li class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span> </li>
                   <li class="list-group-item"> <small>Producer:</small> <span class="produser">Apple</span> </li>
@@ -224,7 +224,7 @@
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xlg-2">
-            <div class="panel panel-default product" id="product1234">
+            <div class="panel panel-default product" id="product1239">
               <div class="panel-body">
                 <div class="thumbnail"> <img src="https://via.placeholder.com/400x400" alt="Product name">
                   <div class="desc">
@@ -235,8 +235,8 @@
                 </div>
                 <h4 class="name">Product name</h4>
                 <div class="code">Code: 27000</div>
-                <div class="price">$400.50</div>
-                <a class="btn btn-primary pull-right" data-id-product="1234">Buy</a>
+                <div class="price">20990₽</div>
+                <a class="btn btn-primary pull-right buy-btn" data-id-product="1239">Buy</a>
                 <ul class="list-group">
                   <li class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span> </li>
                   <li class="list-group-item"> <small>Producer:</small> <span class="produser">Apple</span> </li>
@@ -245,7 +245,7 @@
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xlg-2">
-            <div class="panel panel-default product" id="product1234">
+            <div class="panel panel-default product" id="product1210">
               <div class="panel-body">
                 <div class="thumbnail"> <img src="https://via.placeholder.com/400x400" alt="Product name">
                   <div class="desc">
@@ -256,8 +256,8 @@
                 </div>
                 <h4 class="name">Product name</h4>
                 <div class="code">Code: 27000</div>
-                <div class="price">$400.50</div>
-                <a class="btn btn-primary pull-right" data-id-product="1234">Buy</a>
+                <div class="price">20990₽</div>
+                <a class="btn btn-primary pull-right buy-btn" data-id-product="1210">Buy</a>
                 <ul class="list-group">
                   <li class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span> </li>
                   <li class="list-group-item"> <small>Producer:</small> <span class="produser">Apple</span> </li>
@@ -266,7 +266,7 @@
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xlg-2">
-            <div class="panel panel-default product" id="product1234">
+            <div class="panel panel-default product" id="product1211">
               <div class="panel-body">
                 <div class="thumbnail"> <img src="https://via.placeholder.com/400x400" alt="Product name">
                   <div class="desc">
@@ -277,8 +277,8 @@
                 </div>
                 <h4 class="name">Product name</h4>
                 <div class="code">Code: 27000</div>
-                <div class="price">$400.50</div>
-                <a class="btn btn-primary pull-right" data-id-product="1234">Buy</a>
+                <div class="price">20990₽</div>
+                <a class="btn btn-primary pull-right buy-btn" data-id-product="1211">Buy</a>
                 <ul class="list-group">
                   <li class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span> </li>
                   <li class="list-group-item"> <small>Producer:</small> <span class="produser">Apple</span> </li>
@@ -287,7 +287,7 @@
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xlg-2">
-            <div class="panel panel-default product" id="product1234">
+            <div class="panel panel-default product" id="product1212">
               <div class="panel-body">
                 <div class="thumbnail"> <img src="https://via.placeholder.com/400x400" alt="Product name">
                   <div class="desc">
@@ -298,8 +298,8 @@
                 </div>
                 <h4 class="name">Product name</h4>
                 <div class="code">Code: 27000</div>
-                <div class="price">$400.50</div>
-                <a class="btn btn-primary pull-right" data-id-product="1234">Buy</a>
+                <div class="price">20990₽</div>
+                <a class="btn btn-primary pull-right buy-btn" data-id-product="1212">Buy</a>
                 <ul class="list-group">
                   <li class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span> </li>
                   <li class="list-group-item"> <small>Producer:</small> <span class="produser">Apple</span> </li>
@@ -308,7 +308,7 @@
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xlg-2">
-            <div class="panel panel-default product" id="product1234">
+            <div class="panel panel-default product" id="product1213">
               <div class="panel-body">
                 <div class="thumbnail"> <img src="https://via.placeholder.com/400x400" alt="Product name">
                   <div class="desc">
@@ -319,8 +319,8 @@
                 </div>
                 <h4 class="name">Product name</h4>
                 <div class="code">Code: 27000</div>
-                <div class="price">$400.50</div>
-                <a class="btn btn-primary pull-right" data-id-product="1234">Buy</a>
+                <div class="price">20990₽</div>
+                <a class="btn btn-primary pull-right buy-btn" data-id-product="1213">Buy</a>
                 <ul class="list-group">
                   <li class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span> </li>
                   <li class="list-group-item"> <small>Producer:</small> <span class="produser">Apple</span> </li>
@@ -329,7 +329,7 @@
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xlg-2">
-            <div class="panel panel-default product" id="product1234">
+            <div class="panel panel-default product" id="product1214">
               <div class="panel-body">
                 <div class="thumbnail"> <img src="https://via.placeholder.com/400x400" alt="Product name">
                   <div class="desc">
@@ -340,8 +340,8 @@
                 </div>
                 <h4 class="name">Product name</h4>
                 <div class="code">Code: 27000</div>
-                <div class="price">$400.50</div>
-                <a class="btn btn-primary pull-right" data-id-product="1234">Buy</a>
+                <div class="price">20990₽</div>
+                <a class="btn btn-primary pull-right buy-btn" data-id-product="1214">Buy</a>
                 <ul class="list-group">
                   <li class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span> </li>
                   <li class="list-group-item"> <small>Producer:</small> <span class="produser">Apple</span> </li>
@@ -350,7 +350,7 @@
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xlg-2">
-            <div class="panel panel-default product" id="product1234">
+            <div class="panel panel-default product" id="product1215">
               <div class="panel-body">
                 <div class="thumbnail"> <img src="https://via.placeholder.com/400x400" alt="Product name">
                   <div class="desc">
@@ -361,8 +361,8 @@
                 </div>
                 <h4 class="name">Product name</h4>
                 <div class="code">Code: 27000</div>
-                <div class="price">$400.50</div>
-                <a class="btn btn-primary pull-right" data-id-product="1234">Buy</a>
+                <div class="price">20990₽</div>
+                <a class="btn btn-primary pull-right buy-btn" data-id-product="1215">Buy</a>
                 <ul class="list-group">
                   <li class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span> </li>
                   <li class="list-group-item"> <small>Producer:</small> <span class="produser">Apple</span> </li>
@@ -371,8 +371,45 @@
             </div>
           </div>
         </div>
-        <div class="text-center"> <a id="loadMore" class="btn btn-success">Load More Products</a> </div>
+        <div class="text-center"> 
+           <img id="loadMoreIndicator" src="static/img/loading.gif" class="hidden" alt="Loading...">
+          <a id="loadMore" class="btn btn-success">Load More Products</a> 
+        </div>
       </div>
+      <div id="addProductPopup" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Add Product To Cart</h4>
+            </div>
+            <div class="modal-body row">
+              <div class="col-xs-12 col-sm-6">
+                <div class="thumbnail">
+                  <img class="product-image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" alt="Product image">
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <h4 class="name text-center">Name</h4>
+                  <div class="list-group hidden-xs" style="margin-bottom: 15px">
+                    <span class="list-group-item"><small>Category:</small><span class="category">?</span></span>  
+                    <span class="list-group-item"><small>Producer:</small><span class="producer">?</span></span>  
+                  </div>
+                  <div class="list-group">
+                    <span class="list-group-item"><small>Price:</small><span class="price">0</span></span>
+                    <span class="list-group-item"><small>Count:</small><input type="number" class="count" value="1" min="1" max="10"></span>
+                    <span class="list-group-item"><small>Cost:</small><span class="cost">0</span></span>
+                  </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <img id="addToCartIndicator" src="static/img/loading.gif" class="hidden" alt="Loading...">
+              <button id="addToCart" type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
     </main>
   </div>
 </div>
