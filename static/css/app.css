@@ -30,8 +30,7 @@
 .list-group {
   margin: 0;
 }
-.product .name,
-.product .list-group-item {
+.product .name, .product .list-group-item {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -118,12 +117,11 @@ footer {
   text-decoration: none
 }
 @media (min-width: 767px) {
-  #findProducts,
-  #productCatalog {
+  #findProducts, #productCatalog {
     display: block;
   }
 }
-.shopping-cart-desc{
+.shopping-cart-desc {
   padding: 15px;
 }
 .shopping-cart-desc .btn {
@@ -137,35 +135,13 @@ footer {
   margin: 0 auto;
   display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.load-indicator {
+  background: url("../img/loading.gif") no-repeat center center;
+  height: 38px;
+  width: 38px;
+  display: block;
+}
 .product img {
   height: 200px;
   width: 130px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
