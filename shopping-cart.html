@@ -23,20 +23,7 @@
         </button>
         <a class="navbar-brand" href="products.html">IShop</a>
       </div>
-      <div class="collapse navbar-collapse" id="ishopNav">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              <i class="fa fa-shopping-cart" aria-hidden="true"></i> Shopping cart (<span class="total-count">0</span>)<span class="caret">
-              </span>
-            </a>
-            <div class="dropdown-menu shopping-cart-desc">
-              Total count: <span class="total-count">0</span><br>
-              Total cost: <span class="total-cost">0</span><br>
-              <a href="shopping-cart.html" class="btn btn-primary btn-block">View cart</a>
-            </div>
-          </li>
-        </ul>
+      <div class="collapse navbar-collapse" id="ishopNav"> 
         <a href="#" class="btn btn-primary navbar-btn navbar-right sign-in">
           <i class="fa fa-facebook-official" aria-hidden="true"></i> Sign in
         </a>
@@ -59,7 +46,7 @@
             <div class="input-group">
               <input type="text" name="query" class="form-control" placeholder="Search query">
               <span class="input-group-btn">
-                <a id="goSearch" class="btn btn-default" type="button">Go!</a>
+                <a id="goSearch" class="btn btn-default">Go!</a>
               </span>
             </div>
             <div class="more-options">
@@ -116,30 +103,30 @@
     </aside>
     <main class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
       <div id="shoppingCart">
-        <div class="alert alert-warning" role="alert">To make order, please sign in</div>
+        <div class="alert alert-warning hidden-print" role="alert">To make order, please sign in</div>
         <table class="table table-bordered">
           <thead>
             <tr>
               <th>Product</th>
               <th>Price</th>
               <th>Count</th>
-              <th>Action</th>
+              <th class="hidden-print">Action</th>
             </tr>
           </thead>
           <tbody>
             <tr id="product123" class="product-item">
-              <td class="text-center"><img src="media/orig.jpg" alt="Product name"><br>HUAWEI P50 Pocket 8/256 ГБ</td>
+              <td class="text-center"><img class="small" src="media/orig.jpg" alt="Product name"><br>HUAWEI P50 Pocket 8/256 ГБ</td>
               <td class="price">63459₽</td>
               <td class="count">1</td>
-              <td>
+              <td class="hidden-print">
                 <a class="btn btn-danger remove-product" data-id-product="123" data-count="1">Remove one</a>
               </td>
             </tr>
             <tr id="product124" class="product-item">
-              <td class="text-center"><img src="media/realme9.jpg" alt="Product name"><br>Realme 9 5G Snapdragon 695 4/128 ГБ</td>
+              <td class="text-center"><img class="small" src="media/realme9.jpg" alt="Product name"><br>Realme 9 5G Snapdragon 695 4/128 ГБ</td>
               <td class="price">13990₽</td>
               <td class="count">2</td>
-              <td>
+              <td class="hidden-print">
                 <a class="btn btn-danger remove-product" data-id-product="124" data-count="1">Remove one</a><br><br>
                 <a class="btn btn-danger remove-product all" data-id-product="124" data-count="2">Remove all</a><br><br>
               </td>
@@ -150,7 +137,7 @@
             </tr>
           </tbody>
         </table>
-        <div class="row">
+        <div class="row hidden-print">
           <div class="col-md-4 col-md-offset-4 col-lg-2 col-lg-offset-5" >
             <a class="btn btn-primary btn-block"><i class="fa fa-facebook-official" aria-hidden="true"></i> Sign in</a> 
           </div>

@@ -127,10 +127,10 @@ footer {
 .shopping-cart-desc .btn {
   margin-top: 10px;
 }
-.navbar-btn.navbar-right.sign-in {
+.navbar-right.sign-in {
   margin-right: 10px;
 }
-#shoppingCart table img {
+#shoppingCart table img.small {
   max-height: 80px;
   margin: 0 auto;
   display: block;
@@ -140,6 +140,29 @@ footer {
   height: 38px;
   width: 38px;
   display: block;
+}
+.adv-chars {
+  margin-bottom: 15px;
+}
+@media print {
+  .product .desc {
+    position: static;
+    display: block;
+    border-top: 1px solid #ddd;
+    overflow: hidden;
+    height: 160px;
+    text-overflow: ellipsis;
+  }
+  .buy-btn, aside, #addProductPopup {
+    display: none !important;
+  }
+  .product .price {
+    position: static;
+    float: right;
+  }
+  main {
+    width: 100% !important;
+  }
 }
 .product img {
   height: 200px;
